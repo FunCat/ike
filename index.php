@@ -69,7 +69,4 @@
 			</div>
 		</div>
 	</body>
-</html
-
-
-<!-- hfjfhglhf -->
+</html>
