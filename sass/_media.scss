@@ -3,16 +3,27 @@
 		width: 250px;
 		margin-left: 70%;
 	}
+	.plitka_test{
+		width: 33%;
+	}
 }
-@media (min-width: 1000px) and (max-width: 1300px){
+@media (min-width: 1300px){
 	.block_profile{
 		width: 300px;
 		margin-left: 70%;
 	}
+	.plitka_test{
+		width: 25%;
+		height: 300px;
+	}
 }
-@media (min-width: 1300px) and (max-width: 2000px){
+@media (min-width: 2000px){
 	.block_profile{
 		width: 300px;
 		margin-left: 75%;
+	}
+	.plitka_test{
+		width: 20%;
+		height: 350px;
 	}
 }

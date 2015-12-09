@@ -48,11 +48,10 @@ h1{
 	width: 100%;
 }
 .wrap_info{
-	width: 66%;
 	float: left;
 }
 .wrap_registration{
-	width: 33%;
+	width: 410px;
 	float: left;
 }
 .info_block{
@@ -83,4 +82,60 @@ h1{
 	margin: 20px;
 	background-color: rgba(255, 0, 0, 0.5);
 	border-radius: 25px;
+	.button_plitka{
+		width: 100px;
+		border-radius: 15px;
+		border: 1px solid #8D0202;
+	    background-color: red;
+	    color: white;
+	    padding: 2px;
+	    text-align: center;
+	}
+	.footer_plitka{
+		margin-top: 15px;
+		margin-left: 30%;
+	}
+	.avtor_plitka{
+		padding: 4px 10px;
+	}
+	.subject_plitka{
+		padding: 4px 10px;
+	}
+	.name_plitka{
+		font-size: 24px;
+		text-align: center;
+	}
+	.picture_plitka{
+		text-align: center;
+		img{
+			width: 100px;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+}
+
+
+//=======================REGISTRATION==========================
+.registration{
+	padding: 5px;
+}
+.title_enter{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+.enter_form{
+	padding: 10px;
+	table{
+		margin: auto;
+		td{
+			padding: 3px;
+		}
+	}
+}
+.change_block{
+	text-align: center;
+	margin: 15px 0px;
 }

@@ -30,7 +30,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, ../sass/_normalize.scss */
+/* line 33, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -51,7 +51,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, ../sass/_normalize.scss */
+/* line 54, ../sass/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -76,7 +76,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 78, ../sass/_normalize.scss */
+/* line 77, ../sass/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -95,7 +95,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 98, ../sass/_normalize.scss */
+/* line 97, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -114,7 +114,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, ../sass/_normalize.scss */
+/* line 117, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -158,7 +158,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, ../sass/_normalize.scss */
+/* line 161, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -226,7 +226,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, ../sass/_normalize.scss */
+/* line 229, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -247,7 +247,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, ../sass/_normalize.scss */
+/* line 252, ../sass/_normalize.scss */
 button,
 input,
 optgroup,
@@ -275,7 +275,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, ../sass/_normalize.scss */
+/* line 277, ../sass/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -288,7 +288,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, ../sass/_normalize.scss */
+/* line 290, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -302,7 +302,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, ../sass/_normalize.scss */
+/* line 302, ../sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -311,7 +311,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, ../sass/_normalize.scss */
+/* line 311, ../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -334,7 +334,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, ../sass/_normalize.scss */
+/* line 334, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -348,7 +348,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, ../sass/_normalize.scss */
+/* line 346, ../sass/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -374,7 +374,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 371, ../sass/_normalize.scss */
+/* line 370, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -430,7 +430,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 425, ../sass/_normalize.scss */
+/* line 424, ../sass/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -493,17 +493,16 @@ h1 {
 
 /* line 50, ../sass/_main.scss */
 .wrap_info {
-  width: 66%;
   float: left;
 }
 
-/* line 54, ../sass/_main.scss */
+/* line 53, ../sass/_main.scss */
 .wrap_registration {
-  width: 33%;
+  width: 410px;
   float: left;
 }
 
-/* line 58, ../sass/_main.scss */
+/* line 57, ../sass/_main.scss */
 .info_block {
   margin: 30px;
   background-color: rgba(255, 0, 0, 0.5);
@@ -511,7 +510,7 @@ h1 {
   border-radius: 25px;
 }
 
-/* line 64, ../sass/_main.scss */
+/* line 63, ../sass/_main.scss */
 .registration_block {
   margin: 30px;
   background-color: rgba(255, 0, 0, 0.5);
@@ -519,23 +518,93 @@ h1 {
   border-radius: 25px;
 }
 
-/* line 74, ../sass/_main.scss */
+/* line 73, ../sass/_main.scss */
 .wrap_plitka_test {
   width: 100%;
 }
 
-/* line 77, ../sass/_main.scss */
+/* line 76, ../sass/_main.scss */
 .plitka_test {
   float: left;
   width: 25%;
 }
 
-/* line 81, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 .plitka {
   height: 250px;
   margin: 20px;
   background-color: rgba(255, 0, 0, 0.5);
   border-radius: 25px;
+}
+/* line 85, ../sass/_main.scss */
+.plitka .button_plitka {
+  width: 100px;
+  border-radius: 15px;
+  border: 1px solid #8D0202;
+  background-color: red;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+/* line 94, ../sass/_main.scss */
+.plitka .footer_plitka {
+  margin-top: 15px;
+  margin-left: 30%;
+}
+/* line 98, ../sass/_main.scss */
+.plitka .avtor_plitka {
+  padding: 4px 10px;
+}
+/* line 101, ../sass/_main.scss */
+.plitka .subject_plitka {
+  padding: 4px 10px;
+}
+/* line 104, ../sass/_main.scss */
+.plitka .name_plitka {
+  font-size: 24px;
+  text-align: center;
+}
+/* line 108, ../sass/_main.scss */
+.plitka .picture_plitka {
+  text-align: center;
+}
+/* line 110, ../sass/_main.scss */
+.plitka .picture_plitka img {
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 120, ../sass/_main.scss */
+.registration {
+  padding: 5px;
+}
+
+/* line 123, ../sass/_main.scss */
+.title_enter {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px;
+  text-align: center;
+}
+
+/* line 129, ../sass/_main.scss */
+.enter_form {
+  padding: 10px;
+}
+/* line 131, ../sass/_main.scss */
+.enter_form table {
+  margin: auto;
+}
+/* line 133, ../sass/_main.scss */
+.enter_form table td {
+  padding: 3px;
+}
+
+/* line 138, ../sass/_main.scss */
+.change_block {
+  text-align: center;
+  margin: 15px 0px;
 }
 
 @media (max-width: 1000px) {
@@ -544,18 +613,35 @@ h1 {
     width: 250px;
     margin-left: 70%;
   }
+
+  /* line 6, ../sass/_media.scss */
+  .plitka_test {
+    width: 33%;
+  }
 }
-@media (min-width: 1000px) and (max-width: 1300px) {
-  /* line 8, ../sass/_media.scss */
+@media (min-width: 1300px) {
+  /* line 11, ../sass/_media.scss */
   .block_profile {
     width: 300px;
     margin-left: 70%;
   }
+
+  /* line 15, ../sass/_media.scss */
+  .plitka_test {
+    width: 25%;
+    height: 300px;
+  }
 }
-@media (min-width: 1300px) and (max-width: 2000px) {
-  /* line 14, ../sass/_media.scss */
+@media (min-width: 2000px) {
+  /* line 21, ../sass/_media.scss */
   .block_profile {
     width: 300px;
     margin-left: 75%;
+  }
+
+  /* line 25, ../sass/_media.scss */
+  .plitka_test {
+    width: 20%;
+    height: 350px;
   }
 }
